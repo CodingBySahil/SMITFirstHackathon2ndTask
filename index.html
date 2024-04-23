@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Proficiency Test</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>JavaScript Proficiency Test</h1>
+
+        <!-- 1. Palindrome Check -->
+        <section class="task-section">
+            <h2>1. Palindrome Check</h2>
+            <label for="palindromeInput">Enter a string:</label>
+            <input type="text" id="palindromeInput" placeholder="Enter a string">
+            <button onclick="checkPalindrome()">Check Palindrome</button>
+            <p id="palindromeResult"></p>
+        </section>
+
+        <!-- 2. Minimum and Maximum Numbers -->
+        <section class="task-section">
+            <h2>2. Minimum and Maximum Numbers</h2>
+            <label for="numberInput">Enter numbers separated by commas:</label>
+            <input type="text" id="numberInput" placeholder="Enter numbers">
+            <button onclick="findMinMax()">Find Min and Max</button>
+            <p id="minMaxResult"></p>
+        </section>
+
+        <!-- 3. Missing Number Identification -->
+        <section class="task-section">
+            <h2>3. Missing Number Identification</h2>
+            <p>Series: 11, 12, 14, 15, 16, 18, 19, 20</p>
+            <button onclick="findMissingNumber()">Find Missing Number</button>
+            <p id="missingNumberResult"></p>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
